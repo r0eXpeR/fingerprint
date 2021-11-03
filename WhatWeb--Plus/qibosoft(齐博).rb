@@ -1,0 +1,50 @@
+Plugin.define do
+    name "qibosoft(齐博)" 
+    authors [
+        "winezero",
+
+    ]
+    version "0.1"
+    matches [ { :url => '/a_d/install/data.sql', :md5 => '35f612d8e145f5a4e1bb1c4dbb816eb7'   },
+    { :url => '/a_d/install/data.sql', :text => 'qiboSoft'   },
+    { :url => '/admin/images/cutimg/ccc.gif', :md5 => '090a71bc4fc00f8d10c363c4e63ef779'   },
+    { :url => '/admin/images/cutimg/ccc.gif', :md5 => '325472601571f31e1bf00674c368d335'   },
+    { :url => '/admin/images/cutimg/mms.diy.js', :md5 => 'bf4352ac850b6692f9a74975e71c6a24'   },
+    { :url => '/admin/images/cutimg/mms.diy.js', :md5 => 'c5499bdf98b7d2904b67cef61db87db5'   },
+    { :url => '/admin/images/cutimg/mmsdiy.js', :md5 => 'f9b36a0043705947c8af0b62ade7b681'   },
+    { :url => '/admin/images/li_10.gif', :md5 => '1a23ab6128b1a4c56f8d2782e4796232'   },
+    { :url => '/admin/images/li_10.gif', :md5 => '932e6c2386c57c394eb5650ca1081aa0'   },
+    { :url => '/admin/images/login/index_hz02.gif', :md5 => '1c9fe02f68463e7d425cd26119be9951'   },
+    { :url => '/admin/images/login/index_hz03.gif', :md5 => 'f1b260cd0f59cd12845d70217377b77f'   },
+    { :url => '/admin/template/article_more/config.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/blend/set.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/center/config.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/cutimg/cutimg.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/foot.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/fu_sort/editsort.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/html/set.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/label/article.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/label/maketpl/1.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/module/make.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/mysql/into.htm', :text => 'qiboSoft'   },
+    { :url => '/admin/template/sort/editsort.htm', :text => 'qiboSoft'   },
+    { :url => '/ewebeditor/KindEditor.js', :md5 => '4ae280c43d3d01158ee36bc3d0878d4d'   },
+    { :url => '/ewebeditor/KindEditor.js', :md5 => 'e2230f70fa19f55e898cc8adbd2e2cd7'   },
+    { :url => '/favicon.ico', :md5 => '325dd457ddcce988ff394aed56d7de1e'   },
+    { :url => '/favicon.ico', :md5 => 'f2474a2821a5b0700370f21de5768410'   },
+    { :url => '/form/admin/template/label/form.htm', :text => 'qiboSoft'   },
+    { :url => '/guestbook/admin/template/label/guestbook.htm', :text => 'qiboSoft'   },
+    { :url => '/hack/cnzz/template/ask.htm', :text => 'qiboSoft'   },
+    { :url => '/hack/gather/template/addrulesql.htm', :text => 'qiboSoft'   },
+    { :url => '/hack/upgrade/template/get.htm', :text => 'qiboSoft'   },
+    { :url => '/images/default/ico_loading3.gif', :md5 => 'cc4ea4b491159a76cfd853b3e151f545'   },
+    { :url => '/images/default/nopic.jpg', :md5 => '5774e7f821923ac27c0e7bcf9bd3a9a0'   },
+    { :url => '/images/default/nopic.jpg', :md5 => 'b1103c68acef2f055bb88a1861df59d5'   },
+    { :url => '/install/', :text => 'qiboSoft'   },
+    { :url => '/member/template/blue/foot.htm', :text => 'qiboSoft'   },
+    { :url => '/member/template/default/homepage.htm', :text => 'qiboSoft'   },
+    { :url => '/template/default/cutimg.htm', :text => 'qiboSoft'   },
+    { :url => '/template/special/showsp2.htm', :text => 'qiboSoft'   },
+    { :url => '/wap/template/foot.htm', :text => 'qiboSoft'   }
+]
+end

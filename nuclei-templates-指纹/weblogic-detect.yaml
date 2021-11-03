@@ -1,0 +1,17 @@
+id: weblogic-detect
+
+info:
+  name: Detect Weblogic
+  author: bing0o
+  severity: info
+  tags: tech,weblogic
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/console/login/LoginForm.jsp"
+
+    matchers:
+      - type: word
+        words:
+          - "WebLogic"
